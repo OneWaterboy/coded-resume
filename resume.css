@@ -1,3 +1,12 @@
+
+:root {
+    --font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-size: 0.48cm;
+}
+
 body {
     background: rgb(204,204,204); 
     width: 21cm;
@@ -31,7 +40,7 @@ body {
   }
   .leftPanel {
     width: 32%;
-    background-color: #484444;
+    background-color: rgb(245,245,245);
     padding: 0.7cm;
     display: flex;
     flex-direction: column;
@@ -53,20 +62,12 @@ body {
     border-bottom: 0.05cm solid white;
   }
   h2 {
-    font-family: 'Archivo Narrow', sans-serif;
+    font-family: var(--font-family);
   }
   .leftPanel h2 {
-    color: white;
+    color: #000000;
   }
-  img {
-    width: 4cm;
-    height: 4cm;
-    margin-bottom: 0.7cm;
-    border-radius: 50%;
-    border: 0.15cm solid white;
-    object-fit: cover;
-    object-position: 50% 50%;
-  }
+
   .details {
     width: 100%;
     display: flex;
@@ -78,13 +79,13 @@ body {
 .leftPanel .smallText span, 
 .leftPanel .smallText p, 
 .smallText a {
-  font-size: 0.45cm;
+  font-size: 0.39cm;
 }
 .smallText, 
 .smallText span, 
 .smallText p, 
 .smallText a {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: var(--font-family);
   text-align: justify;
 }
 .contactIcon {
@@ -93,7 +94,7 @@ body {
 }
 .leftPanel, 
 .leftPanel a {
-  color: #bebebe;
+  color: rgba(0,0,0,0.8);
   text-decoration: none;
 }
 
@@ -126,7 +127,7 @@ body {
   }
 
   h1 { 
-    font-family: 'Julius Sans One', sans-serif;
+    font-family: var(--font-family)
   }
   h1 { 
     font-weight: 300; 
@@ -137,7 +138,7 @@ body {
     text-transform: uppercase; 
   }
   h3 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: var(--font-family);
   }
 
 
@@ -182,7 +183,9 @@ body {
   }
   .jobPosition span, 
   .projectName span {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: var(--font-family);
   }
 
-  
+  .degree-name {
+    color: rgba(0,0,0,0.85);
+  }
