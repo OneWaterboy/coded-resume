@@ -1,6 +1,6 @@
 const skillsList = ['ReactJS', 'Vue.js', 'HTML5','CSS3', 'JavaScript', 'Node.js', 'Express.js', 'MongoDB', 'SQL', 'Python'];
 
-window.onload = function() {
+window.addEventListener('load', function() {
     const experiences = {
         "Alpine Web Works": {
             position: "Front End Developer",
@@ -69,4 +69,4 @@ window.onload = function() {
 
         experienceContainer.innerHTML += jobHtml;
     });
-}
+});
