@@ -186,3 +186,29 @@ body {
 span.position-name.bolded {
     font-style: italic;
 }
+
+
+.degree-upper {
+    display: flex;
+    flex-direction: column;
+}
+
+.degree {
+    margin: 0 0 0.5cm;
+}
+
+.degree-lower {
+    margin: 0.2cm 0 0;
+}
+
+span.major {
+    font-style: italic;
+}
+
+.degree span {
+    text-align: unset;
+}
+
+ul.position-tasks li {
+    margin: 0 0 0.2cm;
+}
