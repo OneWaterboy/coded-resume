@@ -220,3 +220,12 @@ ul.position-tasks li {
 .position-bottom.job-dates {
     margin: 0.05cm;
 }
+
+div#skills span {
+    padding: 0 0.1cm;
+}
+
+div#skills {
+    display: flex;
+    flex-wrap: wrap;
+}

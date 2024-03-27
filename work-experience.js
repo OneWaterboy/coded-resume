@@ -69,4 +69,14 @@ window.addEventListener('load', function() {
 
         experienceContainer.innerHTML += jobHtml;
     });
+
+    const skillsContainer = document.getElementById('skills');
+    
+    skillsList.map(skill => {
+        const skillSpan = document.createElement('span');
+        skillSpan.textContent = skill;
+        skillsContainer.appendChild(skillSpan);
+    });
+
+
 });
