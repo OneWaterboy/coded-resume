@@ -87,6 +87,7 @@ body {
 .smallText a {
   font-family: var(--font-family);
   text-align: justify;
+  font-size: 0.39cm;
 }
 .contactIcon {
   width: 0.5cm;
@@ -161,11 +162,11 @@ body {
     width: 0.35cm;
     height: 0.35cm;
   }
-  .jobPosition {
+  /* .jobPosition {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-  }
+  } */
   .jobPosition span, 
   .projectName span {
     font-family: var(--font-family);
@@ -174,3 +175,14 @@ body {
   .degree-name {
     color: rgba(0,0,0,0.85);
   }
+
+  .position-top {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+span.position-name.bolded {
+    font-style: italic;
+}
