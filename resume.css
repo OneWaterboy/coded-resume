@@ -212,3 +212,11 @@ span.major {
 ul.position-tasks li {
     margin: 0 0 0.2cm;
 }
+
+ul.position-tasks li {
+    font-size: 0.4cm;
+}
+
+.position-bottom.job-dates {
+    margin: 0.05cm;
+}

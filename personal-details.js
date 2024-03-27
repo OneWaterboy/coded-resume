@@ -18,6 +18,9 @@ function setHref(selector, value) {
 
 window.addEventListener('load', function() {
     const personalDetails = {
+        name: "Abrahm Rollins",
+        positionTitle: "Front End Developer",
+        professionalSummary: "I am a Front End Developer with 5 years of experience in building responsive websites and web applications. I specialize in front-end technologies including HTML, CSS, JavaScript, and ReactJS. I am passionate about creating user-friendly and visually appealing websites that provide a seamless user experience.",
         phoneNumber: "phone Number",
         email: "email",
         github: {
@@ -34,6 +37,10 @@ window.addEventListener('load', function() {
     setTextContent('.email-address', personalDetails.email);
     setTextContent('.linkedin-profile', personalDetails.linkedin.username);
     setTextContent('.github-profile', personalDetails.github.username);
+    setTextContent('.applicant-name', personalDetails.name);
+    setTextContent('.position-title', personalDetails.positionTitle);
+    setTextContent('.professional-summary', personalDetails.professionalSummary);
+
 
     setHref('.github-profile', personalDetails.github.url);
     setHref('.linkedin-profile', personalDetails.linkedin.url);
